@@ -4,9 +4,9 @@ import { BackgroundGradient } from "./Background-Gradient";
 
 function Hero() {
   return (
-    <div className="flex border-b bg-black border-orange justify-between w-full h-full px-16">
+    <div className="flex border-b bg-primary border-orange justify-between w-full h-full px-6 md:px-16">
       <div className="border-x border-orange flex justify-around flex-wrap-reverse w-full h-full px-16 py-32">
-        <div className="flex-1 text-center">
+        <div className="flex-1 text-left">
           <h3 className="text-white text-xl my-6">Hello</h3>
           <h1 className="text-green text-2xl mb-3 font-Bungee animate-bounce">
             I am Nilesh Yadav
@@ -20,7 +20,7 @@ function Hero() {
             technology, enjoy solving complex problems, and thrive in a
             collaborative setting.
           </p>
-          <div className="flex mt-10 gap-10 justify-center w-full">
+          <div className="flex mt-10 gap-10 justify-start w-full">
             <Button
               variant="primary"
               onClick={() => console.log("Primary Clicked!")}
