@@ -11,7 +11,10 @@ import GIthubIcon from "../assets/github-icon-1.svg";
 function Skills() {
   return (
     <>
-      <div className="border-b bg-cream border-orange justify-between w-full h-full px-6 md:px-16">
+      <section
+        id="skills"
+        className="border-b bg-cream border-orange justify-between w-full h-full px-6 md:px-16"
+      >
         <h1 className="w-full text-center border-x border-orange font-extrabold text-3xl py-10">
           My Skills
         </h1>
@@ -23,6 +26,7 @@ function Skills() {
                   <img
                     src={HTMLIcon}
                     className="w-20 h-20 flex justify-center"
+                    loading="lazy"
                   />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     HTML
@@ -36,6 +40,7 @@ function Skills() {
                   <img
                     src={CssIcon}
                     className="w-20 h-20 flex justify-center"
+                    loading="lazy"
                   />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     CSS
@@ -49,6 +54,7 @@ function Skills() {
                   <img
                     src={JavascriptIcon}
                     className="w-full h-20 flex justify-end"
+                    loading="lazy"
                   />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     JAVASCRIPT
@@ -62,6 +68,7 @@ function Skills() {
                   <img
                     src={ReactIcon}
                     className="w-20 h-20 flex justify-center"
+                    loading="lazy"
                   />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     React
@@ -72,7 +79,11 @@ function Skills() {
             <Card
               children={
                 <div className="">
-                  <img src={NodeIcon} className="w-20 h-20 flex justify-end" />
+                  <img
+                    src={NodeIcon}
+                    className="w-20 h-20 flex justify-end"
+                    loading="lazy"
+                  />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     NODE JS
                   </h1>
@@ -82,7 +93,11 @@ function Skills() {
             <Card
               children={
                 <div className="">
-                  <img src={PostgresIcon} className="w-full h-20 mx-auto" />
+                  <img
+                    src={PostgresIcon}
+                    className="w-full h-20 mx-auto"
+                    loading="lazy"
+                  />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     POSTGRES
                   </h1>
@@ -95,6 +110,7 @@ function Skills() {
                   <img
                     src={MongodbIcon}
                     className="w-full h-20 flex justify-end"
+                    loading="lazy"
                   />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     MONGO DB
@@ -108,6 +124,7 @@ function Skills() {
                   <img
                     src={GIthubIcon}
                     className="w-full h-20 flex justify-end"
+                    loading="lazy"
                   />
                   <h1 className="w-full text-center pt-10 font-Bungee text-2xl">
                     GIT & GITHUB
@@ -117,7 +134,7 @@ function Skills() {
             />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

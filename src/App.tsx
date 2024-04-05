@@ -13,18 +13,30 @@ function App() {
           <div className="border-x border-orange flex justify-between w-full p-5">
             <h1 className="text-purple font-Bungee text-2xl">Nilesh Yadav</h1>
             <div className="flex gap-10">
-              <div className="text-white text-lg hover:text-orange cursor-pointer">
+              <a
+                href="/"
+                className="text-white text-lg hover:text-orange cursor-pointer"
+              >
                 Home
-              </div>
-              <div className="text-white text-lg hover:text-orange cursor-pointer">
-                About
-              </div>
-              <div className="text-white text-lg hover:text-orange cursor-pointer">
+              </a>
+              <a
+                href="/#skills"
+                className="text-white text-lg hover:text-orange cursor-pointer"
+              >
+                Skills
+              </a>
+              <a
+                href="/#contacts"
+                className="text-white text-lg hover:text-orange cursor-pointer"
+              >
                 Contact
-              </div>
-              <div className="text-white text-lg hover:text-orange cursor-pointer">
+              </a>
+              <a
+                href="/#projects"
+                className="text-white text-lg hover:text-orange cursor-pointer"
+              >
                 Projects
-              </div>
+              </a>
             </div>
           </div>
         </div>
