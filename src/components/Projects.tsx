@@ -21,14 +21,14 @@ function Projects() {
               <div className="flex gap-10 justify-between w-full p-6 ">
                 <h3 className=" font-semibold">Portfolio</h3>
                 <a
-                  href="https://thread-clone-butn.onrender.com"
+                  href="https://nileshyadavportfolio.vercel.app/"
                   target="_blank"
                   className="hover:text-red-500"
                 >
                   <FaExternalLinkAlt />
                 </a>
                 <a
-                  href="https://github.com/nilesh-yadav-au6/thread-clone"
+                  href="https://github.com/nilesh-yadav-au6/portfolio"
                   target="_blank"
                   className="hover:text-red-500"
                 >
