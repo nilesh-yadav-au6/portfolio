@@ -5,7 +5,7 @@ import { BackgroundGradient } from "./Background-Gradient";
 function Hero() {
   return (
     <div className="flex border-b bg-primary border-orange justify-between w-full h-full px-6 md:px-16">
-      <div className="border-x border-orange flex justify-around w-full h-full px-16 py-32">
+      <div className="border-x border-orange flex flex-col-reverse justify-center  w-full h-full px-16 py-32 lg:flex-row">
         <div className="flex-1 text-left">
           <h3 className="text-white text-xl my-6">Hello</h3>
           <h1 className="text-green text-2xl mb-3 font-Bungee animate-bounce">
@@ -31,10 +31,10 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="flex justify-end items-center flex-1 w-full">
+        <div className="flex justify-center lg:justify-end items-center z-0 flex-1 w-full">
           <BackgroundGradient>
             <img
-              className="w-auto h-96 rounded-lg m-6"
+              className="w-10/12 h-96 rounded-lg m-4 sm:m-6"
               src={pic}
               loading="lazy"
             />
